@@ -5,17 +5,16 @@
 \usepackage[english, russian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[left=2cm,right=1.5cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{amsmath}
-\usepackage{mathtools, amssymb, amstext}
+
+\usepackage{amsmath, amssymb, amstext, amsfonts, amsthm}
+\usepackage{mathtools}
 \usepackage{etoolbox}
-\usepackage{amsfonts}
-\usepackage{amsthm}
 \usepackage{booktabs}
-\usepackage{graphicx}
 \usepackage{indentfirst}
-\usepackage{etoolbox}
 \usepackage{enumerate}
 \usepackage{nicematrix}
+
+\usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{pgfplots}
 
@@ -23,12 +22,11 @@
 \pgfplotsset{width=10cm,compat=1.18}
 \usepgfplotslibrary{colorbrewer}
 
-%\graphicspath{{./calculus_definition/}}
-
-\newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\Q}{\mathbb{Q}}
+\newcommand{\CC}{\mathbb{C}}
 \newcommand{\B}{\mathfrak{B}}
 \newcommand{\Bo}{\mathring{B}}
 \renewcommand{\phi}{\varphi}
@@ -76,16 +74,31 @@
     colorlinks=true
 }
 
-\title{Конспект курса «Наглядная геометрия и топология»}
-\author{\textbf{Автор курса:} профессор, д.ф.-м.н. Ведюшкина Виктория Викторовна 
-\and \textbf{Автор конспекта:} \href{https://github.com/betel-git}{Цыбулин Егор}, студент 108 группы}
-\date{\today}
+%\title{Конспект курса «Наглядная геометрия и топология»}
+%\author{\textbf{Автор курса:} профессор, д.ф.-м.н. Ведюшкина Виктория Викторовна 
+%\and \textbf{Автор конспекта:} \href{https://github.com/betel-git}{Цыбулин Егор}, студент 108 группы}
+%\date{\today}
 
 
 \begin{document}
-\maketitle
+
+\begin{titlepage}
+    \begin{center}
+        \large Механико-математический факультет МГУ имени М.В. Лононосова
+        \vfill
+        \Large Конспект курса «Наглядная геометрия и топология» \bigskip \\
+        \large \textbf{Автор курса:} профессор, д.ф.-м.н. Ведюшкина Виктория Викторовна
+        \textbf{Автор конспекта:} \href{https://github.com/betel-git}{Цыбулин Егор}, студент 108 группы
+        \vfill
+        Москва, \today
+    \end{center}
+\end{titlepage}
 \tableofcontents
 
+% Дело вкуса — кто-то любит 14pt, кто-то — 12pt, поэтому ниже можно поменять стандартный 12pt на 14pt
+%\fontsize{14pt}{20pt}\selectfont
+
 \include{./chapters/c1}
-\include{./chapters/c2}
+%\include{./chapters/c2}
+
 \end{document}

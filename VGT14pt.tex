@@ -1,0 +1,104 @@
+\documentclass[a4paper, 12pt, openany]{book}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[english, russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,right=1.5cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage{amsmath, amssymb, amstext, amsfonts, amsthm}
+\usepackage{mathtools}
+\usepackage{etoolbox}
+\usepackage{booktabs}
+\usepackage{indentfirst}
+\usepackage{enumerate}
+\usepackage{nicematrix}
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+
+\usetikzlibrary{shapes.geometric}
+\pgfplotsset{width=10cm,compat=1.18}
+\usepgfplotslibrary{colorbrewer}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\B}{\mathfrak{B}}
+\newcommand{\Bo}{\mathring{B}}
+\renewcommand{\phi}{\varphi}
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\emptyset}{\varnothing}
+\newcommand{\lra}{\Leftrightarrow}
+\newcommand{\xn}{\{x_n\}_{n = 1}^{\infty}}
+\renewcommand{\div}{\mid}
+\newcommand{\ndiv}{\nmid}
+\newcommand{\om}{\bar{\bar{o}}}
+
+\newcommand{\lims}{\lim\limits_{n\to \infty}}
+\renewcommand{\liminf}{\lim\limits_{x\to \infty}}
+\newcommand{\liminfp}{\lim\limits_{x\to +\infty}}
+\newcommand{\liminfm}{\lim\limits_{x\to -\infty}}
+\newcommand{\lima}{\lim\limits_{x\to a}}
+\newcommand{\limo}{\lim\limits_{x\to 0}}
+
+\newcounter{concount}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Теорема}[section]
+\newtheorem{corollary}{Следствие}[theorem]
+
+\theoremstyle{definition}
+\newtheorem{definition}{Определение}[section]
+\newtheorem{example}{Пример}[section]
+
+\theoremstyle{remark}
+\newtheorem{remark}{Замечание}[section]
+
+\usepackage{titlesec}
+\titleformat{\section}{\LARGE \bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\Large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\large\bfseries}{\thesubsubsection}{1em}{}
+
+\usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{linkcolor}{HTML}{225ae2}
+\definecolor{urlcolor}{HTML}{225ae2}
+\hypersetup{
+    pdfstartview=FitH, 
+    linkcolor=linkcolor,
+    urlcolor=urlcolor,
+    colorlinks=true
+}
+
+%\title{Конспект курса «Наглядная геометрия и топология»}
+%\author{\textbf{Автор курса:} профессор, д.ф.-м.н. Ведюшкина Виктория Викторовна 
+%\and \textbf{Автор конспекта:} \href{https://github.com/betel-git}{Цыбулин Егор}, студент 108 группы}
+%\date{\today}
+
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \large Механико-математический факультет МГУ имени М.В. Лононосова
+        \vfill
+        \Large Конспект курса «Наглядная геометрия и топология» \bigskip \\
+        \large \textbf{Автор курса:} профессор, д.ф.-м.н. Ведюшкина Виктория Викторовна
+        \textbf{Автор конспекта:} \href{https://github.com/betel-git}{Цыбулин Егор}, студент 108 группы
+        \vfill
+        Москва, \today
+    \end{center}
+\end{titlepage}
+\tableofcontents
+
+% Дело вкуса — кто-то любит 14pt, кто-то — 12pt, поэтому ниже можно поменять стандартный 12pt на 14pt
+\fontsize{14pt}{20pt}\selectfont
+
+\include{./chapters/c1}
+%\include{./chapters/c2}
+
+\end{document}
