@@ -45,18 +45,17 @@
 \newcommand{\lima}{\lim\limits_{x\to a}}
 \newcommand{\limo}{\lim\limits_{x\to 0}}
 
-\newcounter{concount}
-
 \theoremstyle{plain}
-\newtheorem{theorem}{Теорема}[section]
-\newtheorem{corollary}{Следствие}[theorem]
+\newtheorem*{theorem}{Теорема}
+\newtheorem*{corollary}{Следствие}
+\newtheorem*{statement}{Утверждение}
 
 \theoremstyle{definition}
-\newtheorem{definition}{Определение}[section]
-\newtheorem{example}{Пример}[section]
+\newtheorem*{definition}{Определение}
+\newtheorem*{example}{Пример}
 
 \theoremstyle{remark}
-\newtheorem{remark}{Замечание}[section]
+\newtheorem*{remark}{Замечание}
 
 \usepackage{titlesec}
 \titleformat{\section}{\LARGE \bfseries}{\thesection}{1em}{}
@@ -99,6 +98,5 @@
 \fontsize{14pt}{20pt}\selectfont
 
 \include{./chapters/c1}
-%\include{./chapters/c2}
 
 \end{document}
