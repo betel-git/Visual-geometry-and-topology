@@ -59,7 +59,7 @@
 \end{enumerate}
 
 \begin{definition}
-    Пусть $X$ — топологическое множество, $x_0 \in X$. \textit{Открестностью точки $x_0$} назовём любое открытое множество, содержащее эту точку.
+    Пусть $X$ — топологическое множество, $x_0 \in X$. \textit{Окрестностью точки $x_0$} назовём любое открытое множество, содержащее эту точку.
 \end{definition}
 
 \begin{statement}
@@ -83,7 +83,7 @@
 
 
 \begin{definition}
-    Отображение $f: X \to Y$ топологии пространств $X$ и $Y$ \textit{непрерывно}, если $\forall x_0 \in X$ и для любой окрестности $\delta$ точки $f(x_0)$ существует окрестность точки $x_0$ такая, что $f(u) = V$.
+    Отображение $f: X \to Y$ топологии пространств $X$ и $Y$ \textit{непрерывно}, если $\forall x_0 \in X$ и для любой окрестности $\delta$ точки $f(x_0)$ существует окрестность точки $x_0$ такая, что $B_{\delta} (f(x_0)) \subset f(B(x_0))$.
 \end{definition}
 
 \begin{statement}
@@ -91,7 +91,7 @@
 \end{statement}
 \begin{proof}
     $\underline{\Longrightarrow}$ $f: X \to Y$. Пусть $A \subset Y$ открыто. Рассмотрим $f^{-1}(A)$. Пусть $x_0 \in f^{-1}(A) \Rightarrow \exists U$ — открытое: $f(U) \subset A \Rightarrow U \subset f^{-1}(A)$. \\
-    $\underline{\Longleftarrow}$ Пусть прообраз любого множества открыт. Пусть $x_0 \in X \Rightarrow f(x_0) \in Y$ Возьмём $V \subset Y$ — открыто. $f(x_0) \in V \Rightarrow f^{-1}(V)$ — открыто и $x_0 \in f^{-1}(V) \Rightarrow U := f^{-1}(V)$.
+    $\underline{\Longleftarrow}$ Пусть прообраз любого множества открыт. Пусть $x_0 \in X \Rightarrow f(x_0) \in Y$ Возьмём $V \subset Y$, которое будет открыто. $f(x_0) \in V \Rightarrow f^{-1}(V)$ — открытое множество и $x_0 \in f^{-1}(V) \Rightarrow U := f^{-1}(V)$.
 \end{proof}
 
 Другие способы задания топологии:
@@ -114,10 +114,10 @@
 \end{definition}
 
 \begin{statement}
-    Отрезок вещественной прямой в стандартной топологии связан.
+    Отрезок вещественной прямой в стандартной топологии связен.
 \end{statement}
 \begin{proof}
-    От противного. Пусть отрезок несвязан. $\exists A, B \subset \R: \ [a, b] = A \cup B, \ A \cap B = \emptyset$, где $A, B$ — открытые. Пусть $\alpha \in A$, тогда $[a, \alpha) \subset A$ (т.к. A открыто). Рассмотрим $\alpha_0 = \sup{\alpha}: [a, \alpha) \subset A$. \\
+    От противного. Пусть отрезок несвязен. $\exists A, B \subset \R: \ [a, b] = A \cup B, \ A \cap B = \emptyset$, где $A, B$ — открытые множества. Пусть $\alpha \in A$, тогда $[a, \alpha) \subset A$ (т.к. A открыто). Рассмотрим $\alpha_0 = \sup{\alpha}: [a, \alpha) \subset A$. \\
     Пусть $\alpha_0 \in A$, тогда:
     \begin{enumerate}
         \item $\alpha_0 = b \Rightarrow B = \emptyset$ — противоречие.
