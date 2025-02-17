@@ -1,4 +1,3 @@
-\chapter{Топология}
 \section{Топологические пространства}
 \begin{definition}
     \textit{Метрика} — это функция $\rho(x,y) \to \R$, которая обладает следующими свойствами:
@@ -80,8 +79,6 @@
     $$f: X \to Y \ \forall B_{\epsilon}(f(x_0)) \ \exists B_{\delta}(x_0): f(B_{\delta}(x_0)) \subset B_{\epsilon}(f(x_0))$$ — в терминах окрестностей.
 \end{definition}
 
-
-
 \begin{definition}
     Отображение $f: X \to Y$ топологии пространств $X$ и $Y$ \textit{непрерывно}, если $\forall x_0 \in X$ и для любой окрестности $\delta$ точки $f(x_0)$ существует окрестность точки $x_0$ такая, что $f(B(x_0)) \subset B_{\delta} (f(x_0))$.
 \end{definition}
@@ -91,7 +88,7 @@
 \end{statement}
 \begin{proof}
     $\underline{\Longrightarrow}$ $f: X \to Y$. Пусть $A \subset Y$ открыто. Рассмотрим $f^{-1}(A)$. Пусть $x_0 \in f^{-1}(A) \Rightarrow \exists U$ — открытое: $f(U) \subset A \Rightarrow U \subset f^{-1}(A)$. \\
-    $\underline{\Longleftarrow}$ Пусть прообраз любого множества открыт. Пусть $x_0 \in X \Rightarrow f(x_0) \in Y$ Возьмём $V \subset Y$, которое будет открыто. $f(x_0) \in V \Rightarrow f^{-1}(V)$ — открытое множество и $x_0 \in f^{-1}(V) \Rightarrow U := f^{-1}(V)$.
+    $\underline{\Longleftarrow}$ Пусть прообраз любого множества открыт. Пусть $x_0 \in X \Rightarrow f(x_0) \in Y$. Возьмём $V \subset Y$, которое будет открыто. $f(x_0) \in V \Rightarrow f^{-1}(V)$ — открытое множество и $x_0 \in f^{-1}(V) \Rightarrow U := f^{-1}(V)$.
 \end{proof}
 
 Другие способы задания топологии:
@@ -100,6 +97,10 @@
     Пусть $X$ — топологическое пространство. $X_0 \subset X$. $U \in \tau(X) \Rightarrow$ $U \cap X_0 \in \tau(X_0)$.
     \item $f: X \to Y$, $Y$ — топологическое пространство, $f$ — произвольное отображение. Тогда открытые множества на $X$ — прообразы открытых на $Y$.
 \end{enumerate}
+
+\begin{remark}[Дополнение с лекции №2]
+    Топология на $Y$ порождается отображением $f$: множество открыто, если его прообраз открыт.
+\end{remark}
 
 \begin{definition}
     Топологические пространства $X$ и $Y$ называются \textit{гомеоморфными}, если между ними существует непрерывная биекция $f: X \to Y$, которая и называется \textit{гомеоморфизмом}, такая, что отображение $f^{-1}$ также непрерывно.

@@ -1,105 +1,105 @@
-\chapter{3D-фигуры}
-% Preamble: \pgfplotsset{width=7cm,compat=1.18}
-\begin{tikzpicture}
-    \begin{axis}
-        % this yields a 3x4 matrix:
-        \addplot3 [surf] coordinates {
-            (0,0,0) (1,0,0)   (2,0,0)   (3,0,0)
-     
-            (0,1,0) (1,1,0.6) (2,1,0.7) (3,1,0.5)
-     
-            (0,2,0) (1,2,0.7) (2,2,0.8) (3,2,0.5)
-        };
-    \end{axis}
-    \end{tikzpicture}
-    
-% Preamble: \pgfplotsset{width=7cm,compat=1.18}
-% requires \usepgfplotslibrary{colorbrewer}
-\begin{tikzpicture}
-    \begin{axis}[
-        colormap/PuOr,
-    ]
-        \addplot3+ [
-            mesh,
-            scatter,
-            samples=10,
-            domain=0:1,
-        ] {x*(1-x)*y*(1-y)};
-    \end{axis}
-    \end{tikzpicture}
+Возвращаемся к гомеоморфизму.
+\begin{example}
+    Интервал гомеоморфен вещественной прямой $\R$. (Сюда рисунок с окружностью с выколотой точкой и прямой (стереографическая проекция), тогда можно задать гомеоморфизм между окружностью и прямой. Гомеоморфизм между отрезком и прямой строится "растягиванием окружности").
+\end{example}
 
-% Preamble: \pgfplotsset{width=7cm,compat=1.18}
-\begin{tikzpicture}
-    \begin{axis}[view/az=14]
-        \addplot3 [
-            mesh,
-            draw=red,
-            samples=10,
-        ] {x^2-y^2};
-    \end{axis}
-\end{tikzpicture}
+\begin{statement}
+    Непрерывный образ связного пространства связен.
+\end{statement}
+\begin{proof}
+    $f: X \to Y$. От противного. Пусть образ несвязен. Тогда $Im f = A \cup B$, где A, B — открытые и непустые множества, $A \cap B = \emptyset$. $f^{-1}(A)$ открыто, $f^{-1}(B)$ открыто. Если множества не пересекаются, то и их образы не пересекаются. Так как множества не пусты, то и их образы не пусты. $f^{-1}(A) \cup f^{-1}(B) = X \Rightarrow X$ не связно — противоречие. 
+\end{proof}
 
+Добавь сюда что-нибудь про топологические инварианты (связность, компактность).
 
-\begin{tikzpicture}
-    \begin{axis}[
-        xlabel=$x$, ylabel=$y$,
-        view/h=-10,
-        title=Klein bottle,
-    ]
-        \addplot3 [
-            surf,
-            z buffer=sort,
-            colormap={periodic}{
-                color=(blue)
-                   color=(yellow)
-                      color=(orange)
-                         color=(red)
-                      color=(orange)
-                   color=(yellow)
-                color=(blue)},
-            domain=0:180, domain y=0:360,
-            samples=41, samples y=25,
-            variable=\u, variable y=\v,
-            point meta=u,
-        ] (
-{-2/15 * cos(u) * (
-3*cos(v) - 30*sin(u)
-+ 90 *cos(u)^4 * sin(u)
-- 60 *cos(u)^6 * sin(u)
-+ 5 * cos(u)*cos(v) * sin(u))
-},
-{-1/15 * sin(u) * (3*cos(v)
-- 3*cos(u)^2 * cos(v)
-- 48 * cos(u)^4*cos(v)
-+ 48*cos(u)^6 *cos(v)
-- 60 *sin(u)
-+ 5*cos(u)*cos(v)*sin(u)
-- 5*cos(u)^3 * cos(v) *sin(u)
-- 80*cos(u)^5 * cos(v)*sin(u)
-+ 80*cos(u)^7 * cos(v) * sin(u))
-},
-{2/15 * (3 + 5*cos(u) *sin(u))*sin(v)}
-);
-    \end{axis}
-\end{tikzpicture}
+\begin{definition}
+    \textit{Непрерывная кривая (параметрическая)} — непрерывное отображение ненулевого отрезка в топологическое пространство. $\gamma: [a,b] \to X$, где $\gamma$ непрерывна.
+\end{definition}
 
+$\gamma: [0, 2 \pi] \to \R^{2}$
 
-\begin{tikzpicture}
-\begin{axis}[
-        xlabel=$x$,
-        ylabel=$y$,
-        zlabel=$z$,
-        title={Поверхность $z=x^2+y^2$},
-        view={60}{30},  % Углы обзора
-        grid=both,
-        colormap/hot,
-    ]
-    \addplot3[
-        surf,
-        samples=50,
-        domain=-2:2,
-        y domain=-2:2,
-    ]
-    {x^2 + y^2};
-\end{axis}
-\end{tikzpicture}
+$\begin{cases}
+    x = \cos{t}, \\
+    y = \sin{t}, \\
+    t \in [0, 2 \pi].
+\end{cases}$
+
+\begin{definition}
+    Топологическое пространство называется \textit{линейно связным}, если любые две его точки можно соединить кривой.
+\end{definition}
+
+$x, y$ — точки $X$, тогда $\exists \gamma: [\alpha, \beta] \to X: \ \gamma(\alpha) = x, \ \gamma(\beta) = y$
+
+\begin{statement}
+    Образ линейно связного пространства линейно связен.
+\end{statement}
+\begin{proof}
+    Композиция непрерывных отображений непрерывно:
+    $\gamma: [\alpha, \beta] \to X$, $f: X \to Y$.
+\end{proof}
+
+\begin{statement}
+    Если топологическое пространство линейно связно, то оно связно. (Наоборот, вообще говоря, неверно — как задачу можно дать приведение контрпримера).
+\end{statement}
+\begin{proof}
+    Пусть топологическое пространство линейно связно, но не связно. Тогда $X = A \cup B$. Возьмём $x \in A, \ y \in B$. Пользуемся линейной связностью: $\gamma: [0, 1] \to X$, $\gamma$ непрерывна, $\gamma(0) = A, \ \gamma(1) = B, \ Im \gamma$ в $X$ — связно.
+    $Im \gamma \cap A$ — открыто в топологии образа $Im \gamma$, индуцированного топологии на $X$ (пользуемся топологией на подмножестве), $Im \gamma \cap B$ — открыто в топологии образа $Im \gamma$, индуцированного топологии на $X$ — получили противоречие с тем, что отрезок несвязен.
+\end{proof}
+
+\begin{definition}
+    Топологическое пространство \textit{компактно}, если из его любого открытого покрытия можно выбрать конечное подпокрытие.
+\end{definition}
+
+\begin{statement}
+    Непрерывный образ компакта является компактом.
+\end{statement}
+\begin{proof}
+    Пусть $f: X \to Y$. Покрываем образ: $Im f \subseteq \bigcup_{\alpha} U_{\alpha}$ — покрытие.
+    $X \subset \bigcup_{\alpha} f^{-1}(U_{\alpha})$ — открытое покрытие $X$ (т.к. $f$ непрерывно).
+    $X \subset \bigcup_{i = 1}^{n} f(U_{i})$ — конечное подпокрытие.
+    Пользуемся компактностью $X$: $Im f \subset \bigcup_{i = 1}^{n} f(U_{i})$
+\end{proof}
+
+\begin{statement}
+    Замкнутое подмножество компакта есть компакт.
+\end{statement}
+\begin{proof}
+    $M \subset X \subset Y$, $M$ замкнуто, $X$ компактно, $Y$ — топологическое пространство.
+    $M \subset \bigcup_{\alpha} U_{\alpha}$ открытое покрытие $M$.
+    $(Y \setminus M) \cup \bigcup_{\alpha} U_{\alpha}$ — открытое покрытие.
+    Выберем в нём конечное подпокрытие:
+    $X \subset (Y \setminus M) \cup \bigcup_{i = 1}^n U_i$ — конечное подпокрытие.
+    $M \subset \bigcup_{i = 1}^n U_i$.
+\end{proof}
+
+\begin{definition}
+    Топологическое пространство $X$ называется \textit{хаусдорфовым}, если у любых двух его различных точек существуют непересекающиеся окрестности.
+\end{definition}
+
+$\tau = {X, \emptyset} \Rightarrow X$ не хаусдорфово.
+
+\begin{lemma}
+    Компакт в хаусдоровом пространстве является замкнутым множеством.
+\end{lemma}
+\begin{proof}
+    $M \subset X$, $M$ — компакт.
+    $x_0 \in X \setminus M$, $y \in M$.
+    Пользуемся хаусдорфовостью: $x_0 \in U_{x_0}^y, \ y \in V_y, \ U_{x_0}^y \cap V_y = \emptyset$.
+    $\bigcup_{y \in M} V_y$ — открытое покрытие всего множества $M$.
+    Пользуемся компактностью: выберем конечное подпокрытие $M \subset \bigcup_{i = 1}^n v_{y_i}, \ y_i \in M$.
+    $\bigcap_{i = 1}^n U_{x_0}^{y_i} = U$, $x_0 \in U$, $U \cap V_{y_i} = \emptyset$, $U$ открытое $\Rightarrow X \setminus M$ открыто.
+\end{proof}
+
+\begin{statement}
+    $f: X \to Y$, $f$ — непрерывная биекция, $X$ — компакт, $Y$ — хаусдорфово топологическое пространство $\Longrightarrow$ $f$ — гомеоморфизм.
+\end{statement}
+\begin{proof}
+    $f: X \to Y$, $X$ замкнуто, $M \subset X$, $M$ замкнуто $\Rightarrow M$ компактно $\Rightarrow f(M) \subset Y$, где $f(M)$ тоже компактно (т.к. $f$ непрерывно) $\Rightarrow f(M)$ замкнуто в $Y$. 
+\end{proof}
+
+Фактор-топология: дано топологическое пространство $X$, и на нём задано отношение эквивалентности: $f: X \to X \setminus \sim$. $f$ сопоставляет каждой точке из $X$ её класс эквивалентности.
+Топология $X \setminus \sim$ задаётся отображением $f$.
+
+Важный пример не забудь добавить.
+
+% конец второй лекции

@@ -1,4 +1,4 @@
-\documentclass[a4paper, 12pt, openany]{book}
+\documentclass[a4paper, 12pt]{article}
 
 \usepackage{cmap}
 \usepackage[T2A]{fontenc}
@@ -13,6 +13,8 @@
 \usepackage{indentfirst}
 \usepackage{enumerate}
 \usepackage{nicematrix}
+
+\usepackage{import}
 
 \usepackage{graphicx}
 \usepackage{tikz}
@@ -51,6 +53,7 @@
 \newtheorem{theorem}{Теорема}[section]
 \newtheorem{corollary}{Следствие}[theorem]
 \newtheorem{statement}{Утверждение}[section]
+\newtheorem{lemma}{Лемма}[section]
 
 \theoremstyle{definition}
 \newtheorem{definition}{Определение}[section]
@@ -95,10 +98,12 @@
     \end{center}
 \end{titlepage}
 \tableofcontents
+\newpage
 
 % Дело вкуса — кто-то любит 14pt, кто-то — 12pt, поэтому ниже можно поменять стандартный 12pt на 14pt
 %\fontsize{14pt}{20pt}\selectfont
 
-\include{./chapters/c1}
+\import{chapters/}{c1.tex}
+\import{chapters/}{c2.tex}
 
 \end{document}
