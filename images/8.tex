@@ -1,0 +1,11 @@
+\documentclass[tikz,border=3mm]{standalone}
+\usetikzlibrary{graphs}
+
+\begin{document}
+\tikz \graph [multi] {
+    a -- {b,c} -- {c, {{d -- {g,h} -- j},e,f}};
+    g -- [bend left] h;
+    g -- [bend right] h;
+};
+\end{document}
+% Полностью сам нарисовал так-то!!!

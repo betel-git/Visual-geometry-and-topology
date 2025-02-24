@@ -1,0 +1,113 @@
+\newpage
+\section{Графы}
+Будьте внимательны и осторожны! Всё, что написано ниже, никакую проверку ещё не проходило.
+\subsection{Комбинаторное описание графа}
+\begin{definition}[Комбинаторное определение графа]
+    $V$ — множество вершин (конечное), $E$ — множество рёбер, отношение инцидентности — любому ребру соответствует начало и конец, принадлежащие множеству вершин $V$.
+\end{definition}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=2]{images/3.pdf}
+    \caption{Граф с одной петлёй и двумя кратными рёбрами.}
+    \label{fig:1}
+\end{figure}
+
+\begin{definition}
+    Два графа называются \textit{изоморфными}, если существует биекция между их множествами вершин и рёбер, уважающая отношение инцидентности.
+\end{definition}
+
+$v_1, v_2 \in V_1, \ e_1 \in E_1, \ f(v_1), f(v_2) \in V_2$ если вершины $v_1$ и $v_2$ были соединены ребром $e_1$, то их образы $f(v_1)$ и $f(v_2)$ соединены ребром $f(e_1)$.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{images/4.pdf}
+    \caption{Изоморфные графы.}
+    \label{fig:2}
+\end{figure}
+
+
+\subsection{Топологическое описание графа}
+\begin{definition}[Топологическое определение графа]
+    Пусть дано множество (конечное) точек $V$, (конечное) множество отрезков $E$ и отображение $\partial$: (множество концов отрезков) $\to$ $V$. \textit{Графом}, определённым этими данными, назовём топологическое пространство, состоящее из множества точек $V$, называемых вершинами графа, множества внутренних точек отрезков $E$, называемых внутренними точками рёбер графа, на котором задана фактор-топология. Отношение эквивалентности: вершина $v$ лежит в том же классе эквивалентности, что и концы рёбер, которые в неё переходят.
+\end{definition}
+
+$v \in V, \ \partial^{-1}(v): A \sim B \Leftrightarrow A, B \in \partial^{-1}(v), \ A \sim B \sim v$.
+
+\begin{definition}
+    Графы называются \textit{гомеоморфными}, если они гомеоморфны как топологические пространства.
+\end{definition}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=2]{images/5.pdf}
+    \caption{Гомеорморфные, но не изоморфные графы.}
+    \label{fig:3}
+\end{figure}
+
+\begin{definition}
+    Непрерывное отображение графа $\Gamma$ в топологическое пространство $X$ называется \textit{вложением}, если при этом отображение $\Gamma$ и его образ гомеоморфны (никакие две различные точки не переходят в одну).
+\end{definition}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=2]{images/6.pdf}
+    \includegraphics[scale=2]{images/7.pdf}
+    \caption{$K_5$ и $K_{2,3}$.}
+    \label{fig:6}
+\end{figure}
+
+\begin{definition}
+    Граф, для которого существует его вложение в плоскость, называется \textit{планарным}.
+\end{definition}
+
+\begin{definition}
+    Планарный граф вместе с вложением в плоскость называется \textit{плоским}.
+\end{definition}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=2]{images/8.pdf}
+    \caption{Имеется пять областей, на которые разбивается плоскость.}
+    \label{fig:7}
+\end{figure}
+
+\begin{theorem}
+    Для связного плоского графа $B - P + \Gamma = 2$, где $\Gamma$ — количество областей, на которые граф разбивает плоскость.
+\end{theorem}
+
+\begin{theorem}[$\bigstar$]
+    Для любого планарного графа существует его вложение в плоскость такое, что образ любого ребра является ломаной с конечным числом звеньев.
+\end{theorem}
+
+Свойства непрырывных кривых:
+
+\begin{lemma}[1]
+    Образ $\gamma: [a,b] \to \R^2$ непрерывной кривой — замкнутое подмножество плоскости.
+\end{lemma}
+\begin{proof}
+    $\left[a,b\right]$ — компакт $\Rightarrow$ образ его — компакт. $\R^2$ — хаусдорфово $\Rightarrow$ компакт замкнут в хаусдорфовом пространстве.
+\end{proof}
+
+Сюда рисунок №6
+
+\begin{lemma}[2]
+    $\Omega$ — замкнутое подмножество $\R^2$, $\gamma(t)$ — непрерывная кривая, $\gamma: [0,1] \to \R^2, \ \gamma(0) = A \notin \Omega, \ \gamma(1) = B \in \Omega \Rightarrow \exists t_0 \in  [0,1], \gamma(t_0) \in \Omega, \forall t < t_0 \ \gamma(t) \notin \Omega$.
+\end{lemma}
+\begin{proof}
+    $T: \left\{
+        \tau \in [0,1]: \forall t \in [0, \tau) \ \gamma(t) \notin \Omega
+    \right\}$ — не пусто.
+    $U$ — окрестность точки $A$: $U \cap \Omega = \emptyset \ \exists \tau_0: \ \gamma(t) \in U \Rightarrow t \in [0, \tau_0) \ \gamma(t) \notin \Omega, 0 \leq t < \tau_0$.
+    $\sup{\tau} = t_0$. Пусть $\gamma(t_0) \notin \Omega$, тогда существует $V$ окрестность $\gamma(t_0) \notin \Omega \Rightarrow \exists \delta \ \forall t \in (t_0 - \delta, t_0 + \delta), \ \gamma(t) \in V \Rightarrow \gamma(t) \notin \Omega, \ \gamma(t_0 + \frac{\delta}{2}) \notin \Omega \Rightarrow t_0$ — не супремум.
+\end{proof}
+
+\begin{proof}[Доказательство $\bigstar$]
+    Шаг 1. Удалим из графа петли.
+    
+    Шаг 2. Сюда рисунок №7. Для каждой вершины рассмотрим окрестность такую, что она не пересекается с рёбрами графа, НЕ инцидентными данной вершине, и другими вершинами. Рассмотрим замкнутые окрестности вершин в два раза меньшего радиуса.
+
+    Шаг 3. Исправляем вложение в окрестности вершины и добавим обратно петли. Сюда рисунок №8
+
+    Шаг 4. Сюда рисунок №9.
+\end{proof}

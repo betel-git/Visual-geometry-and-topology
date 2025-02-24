@@ -1,0 +1,8 @@
+\documentclass[tikz,border=3mm]{standalone}
+\usetikzlibrary{graphs}
+
+\begin{document}
+\tikz \graph [left anchor=east, right anchor=west] {
+  {1,2,3} -- [complete bipartite] {4,5,6}
+};
+\end{document}

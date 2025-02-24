@@ -1,0 +1,33 @@
+% \documentclass[tikz,border=3mm]{standalone}
+% \begin{document}
+% \begin{tikzpicture}[
+%     node/.style={circle, fill=black, inner sep=0pt}, % Стиль для точек
+%     edge/.style={thick},
+%     loop/.style={thick, out=225, in=135, looseness=50} % Стиль для округлой петли
+% ]
+%     % Узлы (точки)
+%     \node[node] (A) at (0, 0) {};
+%     \node[node] (B) at (2, 0) {};
+
+%     \node[below] at (A) {A}; % Подпись для вершины A
+%     \node[below] at (B) {B}; % Подпись для вершины B
+
+%     % Кратные ребра
+%     \draw[edge] (A) to[bend left=25] (B); % Первое ребро
+%     \draw[edge] (A) to[bend right=25] (B); % Второе ребро
+
+%     % Петля
+%     \draw[loop] (A) to[loop] (A); % Округлая петля у вершины A
+% \end{tikzpicture}
+% \end{document}
+
+\documentclass[tikz,border=3mm]{standalone}
+\usetikzlibrary{graphs}
+
+\begin{document}
+\tikz \graph [multi] {
+    a -- [bend left] b;
+    a -- [bend right] b;
+    a -- [loop] a;
+};
+\end{document}
