@@ -1,0 +1,70 @@
+\begin{theorem}[Бойяи-Гервин]
+    Два многоугольника на плоскости равносоставлены тогда и только тогда, когда они равновеликие.
+\end{theorem}
+
+\begin{definition}
+    Два многоугольника $W_1, W_2$ равносоставлены, если существуют многоугольники $M_1, \dots, M_n$ такие, что:
+    \begin{enumerate}
+        \item $\forall i, j \ M_i \cap M_j = \emptyset$;
+        \item $\bigcup M_i = W_1, \ \bigcup M_j = W_2$.
+    \end{enumerate} 
+\end{definition}
+
+\begin{theorem}[Ден]
+    Куб и правильный тетраэдр равного объёма не равносоставлены.
+\end{theorem}
+
+\begin{definition}
+    Функция $f$, определённая на множестве $M \subset \R$, называется аддитивной, если $\forall n_1 x_1 + \dots + n_k x_k = 0, \ n_i \in \Z, \ x_i \in M$ выполнено $$n_1 f(x_1) + \dots + n_k f(x_k) = 0.$$ 
+\end{definition}
+
+\begin{definition}
+    Пусть дан $W$ — многогранник. $\alpha_1, \dots, \alpha_k$ — величины его двугранных углов. Пусть дана аддитивная функция $f$, определённая на множестве $M: \{\alpha_1, \dots, \alpha_k, \pi\} \in M$, причём $f(\pi) = 0$. Тогда инвариантом Дена многогранника $W$ назовём число $f(W) = \sum a_i f(\alpha_i)$ — сумма по всем рёбрам.
+\end{definition}
+
+\begin{statement}
+    Любой инвариант Дена для куба равен нулю.
+\end{statement}
+\begin{proof}
+    $$2 \cdot \frac{\pi}{2} - \pi = 0$$
+    $$2 \cdot f \left(\frac{\pi}2\right) - 1 \cdot f(\pi) = 0 \Rightarrow f \left(\frac{\pi}2\right) = 0 \Rightarrow f(\text{куб}) = 6 \cdot 0 = 0.$$
+\end{proof}
+
+\begin{statement}
+    Инвариант Дена для призмы равен нулю.
+\end{statement}
+
+\begin{theorem}[Хадвигер]
+    Пусть $W_1, W_2$ — два многогранника, $f$ — аддитивная фнукиция, область определния которой включает число $\pi$ и величины всех двугранных углов $W_1, W_2$. Пусть $f(W_1) \neq f(W_2)$. Тогда $W_1, W_2$ не равносоставлены.
+\end{theorem}
+
+\begin{remark}
+    Через эту теорему будем доказывать теоерему Дена.
+\end{remark}
+
+\begin{proof}
+    Тише едешь — дальше будешь. Что-то с тетраэром и утверждением о том, что $cos(m \alpha) = \frac{a_m}{3^m}, \ a_m \text{не делится на} 3, \ a_m \in Z$
+\end{proof}
+
+\begin{lemma}[1]
+    Пусть $f$ — аддитивная функция, определённая на множестве $M: \ \alpha \in \R, \ \alpha \notin M$. Тогда существует аддитивная функция $\tilde{f_i}$, определённая на $M \cup \{\alpha\}$ такая, что $\forall x \in M: \ f(x) = \tilde{f}{x}$
+\end{lemma}
+\begin{proof}
+    Если между $\alpha$ и числами из $M$ нет зависимости, то $\tilde{f}(\alpha)$ — любое число. Пусть зависимость есть, то есть существуют целые $n_0, \dots, n_k$: $$n_0 \alpha + n_1 x_1 + \dots + n_k x_k = 0 \ x_i \in M, \ n_0 \neq 0.$$
+    Тогда $f(\alpha) := - \frac{n_1 f(x_1) + n_2 f(x_2) + \dots + n_k f(x_k)}{n_0}$. Пусть есть другая зависимость $m_0 \alpha + m_1 y_1 + \dots + m_l y_l = 0, \ y_j \in M, \ m_0 \neq 0$. Верно ли $0 = m_0 f(\alpha) + m_1 f(y_1) + \dots + m_l f(y_l) = - \frac{m_0}{n_0} \left(n_1 f(x_1) + \dots + n_k f(x_k)\right) + m_1 f(y_1) + \dots + m_l f(y_l) = \frac{-m_0 n_1 f(x_1) - \dots - m_0 n_k f(x_k) + n_0 m_1 f(y_1) + \dots + n_0 m_l f(y_l)}{n_0}$?
+    $$-m_0 n_1 x_1 - \dots - m_0 n_k x_k + m_0 n_0 y_1 + \dots + m_l n_0 y_l = 0$$
+\end{proof}
+
+\begin{lemma}[2]
+    Пусть $W$ — многогранник, состоящий (разбитый в объединение непересекающихся) из многогранников $P_1, \dots, P_k$. $f$ — аддитивная функция, определённая на $\pi$ и всех двугранных углах многогранников $W,P_1, \dots, P_k$. Тогда $f(W) = \sum f(P_i)$.
+\end{lemma}
+
+\begin{remark}
+    Из лемм (1)-(2) будет следовать теорема Хадвигера.
+\end{remark}
+
+\begin{proof}
+    Поспешишь — людей насмешишь.
+\end{proof}
+
+Всё будет, но позже.
