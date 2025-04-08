@@ -1,0 +1,29 @@
+\documentclass[border=5pt]{standalone}
+\usepackage{pgfplots}
+%\pgfplotsset{width=7cm,compat=1.8}
+\begin{document}
+\begin{tikzpicture}
+  \begin{axis}[view/h=-10]
+     \addplot3[
+         surf,
+         %colormap/cool,
+         colormap={periodic}{
+            color=(blue)
+               color=(yellow)
+                  color=(orange)
+                     color=(red)
+                  color=(orange)
+               color=(yellow)
+            color=(blue)},
+         samples=50,
+         domain=0:2*pi,
+         y domain=0:2*pi,
+         z buffer=sort
+       ]
+       ( {(2+cos(deg(x)))*cos(deg(y+pi/2))}, 
+         {(2+cos(deg(x)))*sin(deg(y+pi/2))}, 
+         {sin(deg(x))}
+       );
+  \end{axis}
+\end{tikzpicture}
+\end{document}

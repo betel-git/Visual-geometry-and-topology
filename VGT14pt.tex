@@ -20,6 +20,7 @@
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{pgfplots}
+\usepackage{float}
 
 \usetikzlibrary{shapes.geometric}
 \pgfplotsset{width=10cm,compat=1.18}
@@ -77,6 +78,15 @@
     colorlinks=true
 }
 
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./images/}{#1.pdf_tex}
+}
+
 %\title{Конспект курса «Наглядная геометрия и топология»}
 %\author{\textbf{Автор курса:} профессор, д.ф.-м.н. Ведюшкина Виктория Викторовна 
 %\and \textbf{Автор конспекта:} \href{https://github.com/betel-git}{Цыбулин Егор}, студент 108 группы}
@@ -112,6 +122,7 @@
 \import{chapters/}{c7.tex}
 \import{chapters/}{c8.tex}
 \import{chapters/}{c9.tex}
+\import{chapters/}{c10.tex}
 
 \newpage
 \import{chapters/}{bibliography.tex}
