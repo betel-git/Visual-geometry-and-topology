@@ -18,7 +18,7 @@
 \end{definition}
 
 % спасибо Кириллу за конспект курса математического анализа
-Из курса математического анализа.
+%Из курса математического анализа.
 \begin{definition}
     Точка $x \in X \subset A$ называется \textit{внутренней точкой множества $X$}, если $\exists B_{\epsilon} (x) \subset X$.
 \end{definition}
@@ -28,7 +28,7 @@
 \end{definition}
 
 \begin{definition}
-    Множество $A$ называется \textit{закрытым}, если его дополнение $A \setminus X$ открыто.
+    Множество $A$ называется \textit{замкнутым}, если его дополнение $A \setminus X$ открыто.
 \end{definition}
 
 Свойства открытых множеств:
@@ -85,13 +85,13 @@
 \end{definition}
 
 \begin{statement}
-    Множество $A$ топологического пространства $X$ открыто $\Leftrightarrow$ $\forall x_0 \in A \ \exists U_{x_0} \in \tau: x_0 \ \in U_{x_0} \subset A$
+    Множество $A$ топологического пространства $X$ открыто $\Longleftrightarrow$ $\forall x_0 \in A \ \exists U_{x_0} \in \tau: x_0 \ \in U_{x_0} \subset A$.
 \end{statement}
 \begin{proof}
     $\underline{\Longrightarrow}$ Пусть $A$ открыто, $x_0$ — точка $A$, тогда $U_{x_0} = A$. \\
     $\underline{\Longleftarrow}$ Возьмём $x \in U_x \subset A$, где $U_x$ открыты ($\in \tau$).
     Рассмотрим $\cup_{x \in A} U_x = U$, где $U$ открыто, т.к. все $U_x$ открыты.
-    При этом $A \subset U$ и $U \subset A \Rightarrow U = A \Rightarrow A$ открыто.
+    При этом $A \subset U$ и $U \subset A \Longrightarrow U = A \Longrightarrow A$ открыто.
 \end{proof}
 
 \subsection{Непрерывность}
@@ -100,7 +100,7 @@
     Пусть $D_f$ — область определения $f(x),\ x_0\in D_f$. Если 
     \[\forall \epsilon>0\ \exists\ \delta_{\epsilon}>0,\ \forall x\in B_{\delta_{\epsilon}}(x_0)\cap D_f: |f(x)-f(x_0)|<\epsilon,\] 
     то $f(x)$ называется \textit{непрерывной} в точке $x_0$. \\
-    $$f: X \to Y \ \forall B_{\epsilon}(f(x_0)) \ \exists B_{\delta}(x_0): f(B_{\delta}(x_0)) \subset B_{\epsilon}(f(x_0))$$ — в терминах окрестностей.
+    $$f: X \to Y, \ \forall B_{\epsilon}(f(x_0)) \ \exists B_{\delta}(x_0): f(B_{\delta}(x_0)) \subset B_{\epsilon}(f(x_0))$$ — определение в терминах окрестностей.
 \end{definition}
 
 \begin{definition}
@@ -108,18 +108,18 @@
 \end{definition}
 
 \begin{statement}
-    Отображение $f$ двух топологических пространств непрерывно $\Leftrightarrow$ прообраз любого открытого множества открыт.
+    Отображение $f$ двух топологических пространств непрерывно $\Longleftrightarrow$ прообраз любого открытого множества открыт.
 \end{statement}
 \begin{proof}
-    $\underline{\Longrightarrow}$ $f: X \to Y$. Пусть $A \subset Y$ открыто. Рассмотрим $f^{-1}(A)$. Пусть $x_0 \in f^{-1}(A) \Rightarrow \exists U$ — открытое: $f(U) \subset A \Rightarrow U \subset f^{-1}(A)$. \\
-    $\underline{\Longleftarrow}$ Пусть прообраз любого открытого множества открыт. Пусть $x_0 \in X \Rightarrow f(x_0) \in Y$. Возьмём $V \subset Y$, которое будет открыто. $f(x_0) \in V \Rightarrow f^{-1}(V)$ — открытое множество и $x_0 \in f^{-1}(V) \Rightarrow U := f^{-1}(V)$.
+    $\underline{\Longrightarrow}$ Пусть $f: X \to Y$ и пусть $A \subset Y$ открыто. Рассмотрим $f^{-1}(A)$. Докажем, что $f^{-1}(A)$ открыто в $X$. Пусть $x_0 \in f^{-1}(A)$, тогда $f(x_0) \in A$ $\Longrightarrow \exists U$ — открытая окрестность $x_0$ (по определению непрерывности): $f(U) \subset A \Longrightarrow U \subset f^{-1}(A) \Longrightarrow x_0$ — внутренняя точка $f^{-1}(A)$. В силу произвольности $x_0$ получаем, что $f^{-1}(A)$ открыто. \\
+    $\underline{\Longleftarrow}$ Пусть прообраз любого открытого множества открыт. Пусть $x_0 \in X \Longrightarrow f(x_0) \in Y$. Возьмём $V \subset Y$, которое будет открыто: $f(x_0) \in V \Longrightarrow f^{-1}(V)$ — открытое множество и $x_0 \in f^{-1}(V) \Longrightarrow U := f^{-1}(V)$. Тогда $U$  — открытая окрестность $x_0$ и $f(U) = f(f^{-1}(V)) \subset V$. Получается, для любой окрестности $V$ точки $f(x_0)$ найдена окрестность $U$ точки $x_0$ такая, что $f(U) \subset V$ — это и есть определение непрерывности $f$ в точке $x_0$. Так как $x_0$ произвольна, то $f$ непрерывна на всём $X$.
 \end{proof}
 
 %Другие способы задания топологии:
 \subsection{Способы задания топологии}
 \begin{enumerate}
     \item Топология на подмножестве: \\
-    Пусть $X$ — топологическое пространство. $$X_0 \subset X, \ U \in \tau(X) \Rightarrow \ U \cap X_0 \in \tau(X_0).$$
+    Пусть $X$ — топологическое пространство. $$X_0 \subset X, \ U \in \tau(X) \Longrightarrow \ U \cap X_0 \in \tau(X_0).$$
     \item $f: X \to Y$, $Y$ — топологическое пространство, $f$ — произвольное отображение. Тогда открытые множества на $X$ — прообразы открытых на $Y$, то есть:
     \[\tau_X = \left\{f^{-1}(U) | \ U \in \tau_Y\right\}\]
 \end{enumerate}
@@ -163,8 +163,8 @@
     От противного. Пусть отрезок несвязен. $\exists A, B \subset \R: \ [a, b] = A \cup B, \ A \cap B = \emptyset$, где $A, B$ — открытые множества. Пусть $\alpha \in A$, тогда $[a, \alpha) \subset A$ (т.к. A открыто). Рассмотрим $\alpha_0 = \sup\{ {\alpha}: [a, \alpha) \subset A\}$. \\
     Пусть $\alpha_0 \in A$, тогда:
     \begin{enumerate}
-        \item $\alpha_0 = b \Rightarrow B = \emptyset$ — противоречие.
-        \item $\alpha_0 < b \Rightarrow \alpha_0$ входит в $A$ с окрестностью $\Rightarrow$ существует $(\alpha_0 - \epsilon, \alpha_0 + \epsilon) \in A \Rightarrow \alpha_0$ — не супремум — противоречие.
+        \item $\alpha_0 = b \Longrightarrow B = \emptyset$ — противоречие.
+        \item $\alpha_0 < b \Longrightarrow \alpha_0$ входит в $A$ с окрестностью $\Longrightarrow$ существует $(\alpha_0 - \epsilon, \alpha_0 + \epsilon) \in A \Longrightarrow \alpha_0$ — не супремум — противоречие.
     \end{enumerate}
 \end{proof}
 
