@@ -1,0 +1,16 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{amssymb}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{tikzpicture}[scale=1.5]
+    \draw (0,0) circle (1.5cm);
+    \draw[thick,->] (0,0) -- (1.5,0) node[right] {$r_1$};
+    \draw[thick,->] (0,0) -- (0.75,1.299) node[above right] {$r_2$};
+    \filldraw[fill=blue!20,draw=blue] (0,0) -- (0.5,0) arc (0:60:0.5) -- cycle;
+    \filldraw[fill=red!20,draw=red] (0,0) -- (0.5,0) arc (0:-300:0.5) -- cycle;
+    \node at (0.6,0.3) {$S_1$};
+    \node at (0.3,-0.6) {$S_2$};
+\end{tikzpicture}
+\end{document}
