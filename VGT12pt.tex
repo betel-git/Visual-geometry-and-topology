@@ -75,9 +75,14 @@
 \usepackage{pdfpages}
 \usepackage{transparent}
 
-\newcommand{\incfig}[1]{%
-    \def\svgwidth{\columnwidth}
-    \import{./images/}{#1.pdf_tex}
+% \newcommand{\incfig}[1]{%
+%     \def\svgwidth{\columnwidth}
+%     \import{./images/}{#1.pdf_tex}
+% }
+
+\newcommand{\incfig}[2][\columnwidth]{%
+    \def\svgwidth{#1}
+    \import{./images/}{#2.pdf_tex}
 }
 
 

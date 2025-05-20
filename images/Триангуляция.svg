@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="126.18224mm"
+   height="59.058201mm"
+   viewBox="0 0 126.18224 59.058201"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="Триангуляция.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title20">Триангуляция</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.97386896"
+     inkscape:cx="261.84221"
+     inkscape:cy="199.71886"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch18">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop18" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path12" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect9"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-45.082652,-57.784031)">
+    <path
+       style="mix-blend-mode:normal;fill:none;stroke:#000000;stroke-width:0.365;stroke-dasharray:none;stroke-opacity:1"
+       d="m 66.469598,116.60996 c -4.546002,0.22513 -9.244303,-0.27237 -13.286505,-2.3646 -2.0211,-1.04612 -3.851563,-2.48691 -5.24627,-4.28524 -1.394707,-1.79833 -2.342927,-3.96013 -2.599178,-6.22144 -0.281571,-2.48476 0.276335,-5.023147 1.352875,-7.280221 1.076539,-2.257073 2.65486,-4.247524 4.435611,-6.003156 3.561502,-3.511265 7.915923,-6.107653 11.693402,-9.385447 5.167967,-4.484348 9.184898,-10.180427 14.40815,-14.600258 4.588108,-3.882382 10.101268,-6.722542 15.995052,-7.900225 5.893784,-1.177684 12.162335,-0.651801 17.660915,1.774979 5.49858,2.426779 10.17406,6.79085 12.70417,12.242657 2.5301,5.451806 2.82137,11.962053 0.51438,17.511955 -2.4268,5.838114 -7.46629,10.267246 -13.02664,13.276476 -5.56034,3.00924 -11.689811,4.77377 -17.710749,6.70282 -8.813654,2.82381 -17.651575,6.07393 -26.895213,6.5317 z"
+       id="path1"
+       inkscape:path-effect="#path-effect1"
+       inkscape:original-d="m 66.469598,116.60996 c -8.96507,2.17723 -14.023933,-8.51682 -21.131953,-12.87128 -7.108021,-4.354463 11.654591,-15.112549 17.481888,-22.668824 5.827297,-7.556275 9.541396,-9.66947 14.40815,-14.600258 4.866754,-4.930788 31.313717,15.75291 46.874517,23.629366 15.5608,7.876455 -20.49159,13.255496 -30.737389,19.979296 -10.245796,6.72381 -17.930143,4.35447 -26.895213,6.5317 z" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 76.93952,100.76099 c 3.207143,-0.43182 6.237504,-2.068914 8.356727,-4.514549 2.228258,-2.571464 3.422732,-6.014363 3.265847,-9.413325"
+       id="path2"
+       inkscape:path-effect="#path-effect2"
+       inkscape:original-d="m 76.93952,100.76099 c 2.785576,-1.376773 5.571151,-3.041714 8.356727,-4.514549 2.785576,-1.472832 2.177232,-6.211512 3.265847,-9.413325"
+       transform="rotate(15.411964,75.602136,85.826304)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365001;stroke-dasharray:none;stroke-opacity:1"
+       d="m 77.323737,100.37678 c 0.697569,-1.897742 1.903381,-3.605977 3.457956,-4.898774 1.711048,-1.422921 3.840999,-2.335757 6.051423,-2.593467"
+       id="path3"
+       inkscape:path-effect="#path-effect3"
+       inkscape:original-d="m 77.323737,100.37678 c 1.18467,-1.568889 2.369341,-3.329885 3.457956,-4.898774 1.088618,-1.568886 4.002265,-1.664941 6.051423,-2.593467" />
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-dasharray:0.53, 1.06;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4"
+       cx="104.315"
+       cy="81.358017"
+       rx="10.662031"
+       ry="10.277814" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 96.342495,74.634216 c 4.149525,4.07283 6.925285,9.521527 7.780405,15.272639 0.0806,0.542186 0.14469,1.086832 0.1921,1.632924"
+       id="path5"
+       inkscape:path-effect="#path-effect5"
+       inkscape:original-d="m 96.342495,74.634216 c 2.625487,4.962808 5.154915,10.213779 7.780405,15.272639 2.62548,5.058862 0.16009,1.02458 0.1921,1.632924"
+       transform="matrix(1.0251063,0,0,1.0123464,-2.4162921,-0.91917717)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 96.534604,74.922379 c 5.558456,-1.376229 11.751936,0.144327 16.041076,3.938228 0.88394,0.781874 1.68969,1.652088 2.40136,2.593467"
+       id="path6"
+       inkscape:path-effect="#path-effect6"
+       inkscape:original-d="m 96.534604,74.922379 c 5.218956,1.184669 10.630016,2.56145 16.041076,3.938228 5.41106,1.37678 1.6009,1.728978 2.40136,2.593467"
+       transform="matrix(1.000833,0,0,0.9798379,-0.11764137,1.2458419)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 104.50711,91.635833 c 2.45329,-0.757521 4.71664,-2.122184 6.5317,-3.938228 1.74327,-1.744209 3.0707,-3.901292 3.84217,-6.243531"
+       id="path7"
+       inkscape:path-effect="#path-effect7"
+       inkscape:original-d="m 104.50711,91.635833 c 2.1132,-1.312741 4.32245,-2.625484 6.5317,-3.938228 2.20925,-1.312741 2.56145,-4.162353 3.84217,-6.243531"
+       transform="matrix(0.98725983,0,0,1.0152962,1.5148827,-1.4706659)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.465;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 105.77718,83.135707 c 27.61901,-15.350879 46.6368,-5.558351 46.6368,-5.558351"
+       id="path11" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 153.09319,66.383923 -10.32394,22.551789 h 28.11916 z"
+       id="path13" />
+  </g>
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>betel</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>betel</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:title>Триангуляция</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

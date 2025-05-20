@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="103.80362mm"
+   height="66.548485mm"
+   viewBox="0 0 392.32865 251.52184"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="c14.6.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.9478373"
+     inkscape:cx="312.65445"
+     inkscape:cy="191.23774"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-133.7038,-134.83227)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.77638;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="M 143.03046,355.03502 V 145.93464"
+       id="path1" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.77638;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="M 143.03046,355.03502 H 514.93008"
+       id="path2" />
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:#ff0007;stroke-width:1.39843;stroke-dasharray:none;stroke-opacity:1"
+       d="m 143.32923,280.30545 c 85.94145,-1.54017 113.36573,-26.69083 91.28997,-45.68625 -22.07578,-18.99543 -65.71392,-45.69172 -57.49968,-7.18746 8.21423,38.50424 4.62051,74.44153 47.74527,72.90136 43.12475,-1.54017 21.56237,-20.53559 49.28543,-45.6917 27.72305,-25.1561 52.36577,-34.39712 51.33899,-4.10712 -1.02678,30.29001 3.59373,63.14696 -22.07577,64.17374 -25.66949,1.02678 -41.07119,-14.88831 -26.69627,-30.80339 14.37491,-15.91509 36.96407,-30.8034 52.87916,-20.5356 15.91508,10.2678 7.70085,29.26322 31.83017,32.85695"
+       id="path3"
+       sodipodi:nodetypes="cssssssssc" />
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.21333;stroke-dasharray:4.85332, 9.70664;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 430.38453,281.00466 v 74.03036"
+       id="path4" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.39843;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="421.4931"
+       y="382.98886"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="421.4931"
+         y="382.98886">$2\pi k$</tspan></text>
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:#ff9a00;stroke-width:1.39843;stroke-dasharray:none;stroke-opacity:1"
+       d="m 143.32923,280.30545 c 0,0 5.33413,-0.53684 15.58948,1.45978 10.25536,1.99661 14.15784,7.7142 20.78298,12.70575 6.62515,4.99154 17.51579,12.43348 26.22831,14.33935 8.71251,1.90586 26.95434,6.80665 41.29369,9.52931 12.66608,2.40495 44.37937,5.80834 52.72887,5.80834 6.54445,0 24.19904,6.30243 31.31061,6.7159 7.80495,0.45378 17.96955,4.26551 25.32074,0.63524 7.80383,-3.8538 11.50199,-11.36604 18.87712,-17.60654 4.71928,-3.99324 20.73286,-10.65418 12.79651,-16.51748 -0.97974,-0.72383 -1.23314,-0.87425 -5.91468,-1.41182 -4.02438,-0.46211 -8.41713,-0.9428 -11.32884,0.14124 -2.95734,1.10103 -9.58752,0.12141 -9.58752,0.12141"
+       id="path5"
+       sodipodi:nodetypes="csssssssssssc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff9a00;stroke-width:1.39843;stroke-dasharray:11.18743992,2.79685998,1.39842999,2.79685998;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 143.32923,280.30545 h 287.4049"
+       id="path7" />
+  </g>
+</svg>
