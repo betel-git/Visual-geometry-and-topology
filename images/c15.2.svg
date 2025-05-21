@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80.032234mm"
+   height="56.864159mm"
+   viewBox="0 0 80.032234 56.864159"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="c15.2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.5432459"
+     inkscape:cx="123.85747"
+     inkscape:cy="139.782"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect13"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect11"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <marker
+       style="overflow:visible"
+       id="marker9"
+       refX="4"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-52.710623,-101.24127)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.370001"
+       d="m 52.829883,143.31306 c 35.540103,-29.96895 68.582787,0.19211 68.582787,0.19211"
+       id="path1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17;stroke-dasharray:none"
+       d="M 87.409442,158.10543 V 101.24127"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.17;stroke-dasharray:none"
+       d="M 56.980983,130.01295 H 117.8379"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;marker-end:url(#DartArrow)"
+       d="M 87.40944,130.01295 H 112.6237"
+       id="path4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;marker-end:url(#marker9)"
+       d="m 87.40944,130.01295 14.12937,-14.12937"
+       id="path5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;marker-end:url(#marker9)"
+       d="m 87.40944,130.01295 14.12937,14.12937"
+       id="path8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:1.6, 0.4, 0.2, 0.4;stroke-dashoffset:0"
+       d="m 101.53881,115.88358 v 28.25874"
+       id="path10" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 91.769778,130.01295 c -0.180842,-0.55773 -0.361681,-1.11545 -0.716061,-1.48781 -0.354379,-0.37236 -0.882271,-0.55933 -1.410173,-0.7463"
+       id="path11"
+       inkscape:path-effect="#path-effect11"
+       inkscape:original-d="m 91.769778,130.01295 c -0.180841,-0.55773 -0.361681,-1.11545 -0.542527,-1.67319 -0.527912,-0.18698 -1.055804,-0.37395 -1.583707,-0.56092"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 91.769778,130.01295 c -0.180842,-0.55773 -0.361681,-1.11545 -0.716061,-1.48781 -0.354379,-0.37236 -0.882271,-0.55933 -1.410173,-0.7463"
+       id="path12"
+       inkscape:path-effect="#path-effect13"
+       inkscape:original-d="m 91.769778,130.01295 c -0.180841,-0.55773 -0.361681,-1.11545 -0.542527,-1.67319 -0.527912,-0.18698 -1.055804,-0.37395 -1.583707,-0.56092"
+       sodipodi:nodetypes="ccc"
+       transform="matrix(0.98617804,0,0,-0.92306982,1.2690676,250.05361)" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:2.11667px;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
+       x="91.817337"
+       y="128.36734"
+       id="text13"><tspan
+         sodipodi:role="line"
+         style="font-size:2.11667px;stroke-width:0.1"
+         x="91.817337"
+         y="128.36734"
+         id="tspan14">$\alpha$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:2.11667px;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
+       x="91.744324"
+       y="132.74136"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="stroke-width:0.1"
+         x="91.744324"
+         y="132.74136">$\alpha$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:2.11667px;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
+       x="99.953659"
+       y="114.87156"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="stroke-width:0.1"
+         x="99.953659"
+         y="114.87156">$\overrightarrow{v}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:2.11667px;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
+       x="99.861702"
+       y="146.50061"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="stroke-width:0.1"
+         x="99.861702"
+         y="146.50061">$\overrightarrow{w}$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-size:2.11667px;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
+       x="112.18349"
+       y="128.72823"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="stroke-width:0.1"
+         x="112.18349"
+         y="128.72823">$\overrightarrow{e}$</tspan></text>
+  </g>
+</svg>

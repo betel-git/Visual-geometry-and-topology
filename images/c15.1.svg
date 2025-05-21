@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="84.241478mm"
+   height="56.490288mm"
+   viewBox="0 0 318.39301 213.50661"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="c15.1.svg"
+   inkscape:export-filename="c15.1.pdf"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.7546579"
+     inkscape:cx="198.20973"
+     inkscape:cy="99.649397"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="DartArrow"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Dart arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="scale(-0.5)"
+         id="path6" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-264.15648,-255.49986)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.39843;stroke-dasharray:none;stroke-opacity:1"
+       d="m 267.06596,377.20191 c 0,0 9.13782,39.6707 58.42325,67.39375 49.28543,27.72306 82.14238,28.74984 124.24035,15.4017 42.09798,-13.34814 115.04958,-78.67373 122.75533,-106.41443 7.26043,-26.13754 10.46184,-31.02367 2.17812,-53.72718 -4.90078,-13.43179 -5.26381,-19.96618 -36.30214,-35.21308 -30.13193,-14.80165 -40.29539,-6.89741 -64.25481,-0.72604 -23.95941,6.17136 -26.13754,12.34273 -45.01466,5.80834 -18.87712,-6.53439 -51.54905,-4.71928 -67.15897,3.99324 -15.60993,8.71251 -17.06201,15.97294 -39.93237,11.25366 -22.87035,-4.71928 -44.69702,16.4721 -48.32723,24.05018 -3.97077,8.28896 -8.51358,33.7843 -8.80327,45.37768 -0.21609,8.64766 2.1964,22.80218 2.1964,22.80218 z"
+       id="path1"
+       sodipodi:nodetypes="csssssssssssc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.64252;stroke-dasharray:none;stroke-opacity:1"
+       d="m 551.44788,265.43798 30.85682,36.30215"
+       id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.01291;stroke-dasharray:1.01291, 2.02583;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 433.81247,320.83349 132.46127,-36.48161 -48.13425,97.61144"
+       id="path3" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.64252;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4"
+       cx="432.84885"
+       cy="321.09018"
+       r="2.5037794" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.39843;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#DartArrow)"
+       d="m 433.81247,320.83349 66.23063,-18.2408"
+       id="path5" />
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.39843;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="423.03329"
+       y="337.29718"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="423.03329"
+         y="337.29718">$(x,y)$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.39843;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="450.80261"
+       y="297.78128"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="450.80261"
+         y="297.78128">$(v_1,v_2)$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.39843;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="401.50177"
+       y="437.44089"
+       id="text7"><tspan
+         sodipodi:role="line"
+         x="401.50177"
+         y="437.44089"
+         id="tspan8">$\Omega$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:500;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.39843;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="510.28503"
+       y="446.81216"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         x="510.28503"
+         y="446.81216">$\gamma = \partial \Omega$</tspan></text>
+  </g>
+</svg>
