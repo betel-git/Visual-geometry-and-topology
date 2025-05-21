@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="80.032234mm"
-   height="56.864159mm"
-   viewBox="0 0 80.032234 56.864159"
+   width="68.826767mm"
+   height="37.263302mm"
+   viewBox="0 0 68.826767 37.263302"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (86a8ad7, 2024-10-11)"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="2.5432459"
-     inkscape:cx="123.85747"
-     inkscape:cy="139.782"
+     inkscape:cx="108.91593"
+     inkscape:cy="88.273022"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="-9"
@@ -101,57 +101,50 @@
      inkscape:label="Слой 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-52.710623,-101.24127)">
+     transform="translate(-52.710623,-111.95674)">
     <path
        style="fill:none;stroke:#000000;stroke-width:0.370001"
        d="m 52.829883,143.31306 c 35.540103,-29.96895 68.582787,0.19211 68.582787,0.19211"
        id="path1"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       transform="translate(2.0751399e-6)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.17;stroke-dasharray:none"
-       d="M 87.409442,158.10543 V 101.24127"
-       id="path2" />
+       style="fill:none;stroke:#000000;stroke-width:0.135639;stroke-dasharray:none"
+       d="M 87.409442,148.15722 V 111.95674"
+       id="path2"
+       transform="translate(2.0751399e-6)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.17;stroke-dasharray:none"
        d="M 56.980983,130.01295 H 117.8379"
-       id="path3" />
+       id="path3"
+       transform="translate(2.0751399e-6)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;marker-end:url(#DartArrow)"
        d="M 87.40944,130.01295 H 112.6237"
-       id="path4" />
+       id="path4"
+       transform="translate(2.0751399e-6)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;marker-end:url(#marker9)"
        d="m 87.40944,130.01295 14.12937,-14.12937"
-       id="path5" />
+       id="path5"
+       transform="translate(2.0751399e-6)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.3;stroke-dasharray:none;marker-end:url(#marker9)"
        d="m 87.40944,130.01295 14.12937,14.12937"
-       id="path8" />
+       id="path8"
+       transform="translate(2.0751399e-6)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.2;stroke-dasharray:1.6, 0.4, 0.2, 0.4;stroke-dashoffset:0"
        d="m 101.53881,115.88358 v 28.25874"
-       id="path10" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 91.769778,130.01295 c -0.180842,-0.55773 -0.361681,-1.11545 -0.716061,-1.48781 -0.354379,-0.37236 -0.882271,-0.55933 -1.410173,-0.7463"
-       id="path11"
-       inkscape:path-effect="#path-effect11"
-       inkscape:original-d="m 91.769778,130.01295 c -0.180841,-0.55773 -0.361681,-1.11545 -0.542527,-1.67319 -0.527912,-0.18698 -1.055804,-0.37395 -1.583707,-0.56092"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 91.769778,130.01295 c -0.180842,-0.55773 -0.361681,-1.11545 -0.716061,-1.48781 -0.354379,-0.37236 -0.882271,-0.55933 -1.410173,-0.7463"
-       id="path12"
-       inkscape:path-effect="#path-effect13"
-       inkscape:original-d="m 91.769778,130.01295 c -0.180841,-0.55773 -0.361681,-1.11545 -0.542527,-1.67319 -0.527912,-0.18698 -1.055804,-0.37395 -1.583707,-0.56092"
-       sodipodi:nodetypes="ccc"
-       transform="matrix(0.98617804,0,0,-0.92306982,1.2690676,250.05361)" />
+       id="path10"
+       transform="translate(2.0751399e-6)" />
     <text
        xml:space="preserve"
        style="font-weight:500;font-size:2.11667px;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
        x="91.817337"
        y="128.36734"
-       id="text13"><tspan
+       id="text13"
+       transform="translate(2.0751399e-6)"><tspan
          sodipodi:role="line"
          style="font-size:2.11667px;stroke-width:0.1"
          x="91.817337"
@@ -162,7 +155,8 @@
        style="font-weight:500;font-size:2.11667px;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
        x="91.744324"
        y="132.74136"
-       id="text15"><tspan
+       id="text15"
+       transform="translate(2.0751399e-6)"><tspan
          sodipodi:role="line"
          id="tspan15"
          style="stroke-width:0.1"
@@ -173,7 +167,8 @@
        style="font-weight:500;font-size:2.11667px;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
        x="99.953659"
        y="114.87156"
-       id="text16"><tspan
+       id="text16"
+       transform="translate(2.0751399e-6)"><tspan
          sodipodi:role="line"
          id="tspan16"
          style="stroke-width:0.1"
@@ -182,24 +177,54 @@
     <text
        xml:space="preserve"
        style="font-weight:500;font-size:2.11667px;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
-       x="99.861702"
-       y="146.50061"
-       id="text17"><tspan
+       x="100.35996"
+       y="148.68532"
+       id="text17"
+       transform="translate(2.0751399e-6)"><tspan
          sodipodi:role="line"
          id="tspan17"
          style="stroke-width:0.1"
-         x="99.861702"
-         y="146.50061">$\overrightarrow{w}$</tspan></text>
+         x="100.35996"
+         y="148.68532">$\overrightarrow{w}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:500;font-size:2.11667px;font-family:'CMU Typewriter Text Variable Width';-inkscape-font-specification:'CMU Typewriter Text Variable Width Medium';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
        x="112.18349"
        y="128.72823"
-       id="text18"><tspan
+       id="text18"
+       transform="translate(2.0751399e-6)"><tspan
          sodipodi:role="line"
          id="tspan18"
          style="stroke-width:0.1"
          x="112.18349"
          y="128.72823">$\overrightarrow{e}$</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path19"
+       sodipodi:type="arc"
+       sodipodi:cx="89.207047"
+       sodipodi:cy="129.86102"
+       sodipodi:rx="2.1884978"
+       sodipodi:ry="2.0781534"
+       sodipodi:start="0"
+       sodipodi:end="1.5312511"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m 91.395544,129.86102 a 2.1884978,2.0781534 0 0 1 -2.101975,2.07653"
+       transform="translate(2.0751399e-6)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path20"
+       sodipodi:type="arc"
+       sodipodi:cx="89.198387"
+       sodipodi:cy="-130.04572"
+       sodipodi:rx="2.1884978"
+       sodipodi:ry="2.0781534"
+       sodipodi:start="0"
+       sodipodi:end="1.5312511"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m 91.386885,-130.04572 a 2.1884978,2.0781534 0 0 1 -2.101976,2.07653"
+       transform="matrix(0.99999996,0,0,-1,2.0751399e-6,0)" />
   </g>
 </svg>
