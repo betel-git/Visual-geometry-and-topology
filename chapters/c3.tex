@@ -66,7 +66,7 @@ $v \in V, \ \partial^{-1}(v): A \sim B \Longleftrightarrow A, B \in \partial^{-1
 \end{figure}
 
 \begin{definition}
-    Непрерывное отображение графа $\Gamma$ в топологическое пространство $X$ называется \textit{вложением}, если при этом отображение $\Gamma$ и его образ гомеоморфны (никакие две различные точки не переходят в одну).
+    Непрерывное отображение графа $\Gamma$ в топологическое пространство $X$ называется \textit{вложением}, если при этом отображении $\Gamma$ и его образ гомеоморфны (никакие две различные точки не переходят в одну).
 \end{definition}
 
 \begin{figure}[h]
@@ -141,7 +141,7 @@ $v \in V, \ \partial^{-1}(v): A \sim B \Longleftrightarrow A, B \in \partial^{-1
     $\Omega$ — замкнутое подмножество $\R^2$, $\gamma(t)$ — непрерывная кривая, $\gamma: [0,1] \to \R^2, \ \gamma(0) = A \notin \Omega, \ \gamma(1) = B \in \Omega \Longrightarrow \exists t_0 \in  [0,1]: \ \gamma(t_0) \in \Omega, \ \forall t < t_0 \ \gamma(t) \notin \Omega$.
 \end{lemma}
 \begin{proof}
-    Рассмотрим $T: \left\{
+    Рассмотрим $T = \left\{
         \tau \in [0,1]: \ \forall t \in [0, \tau): \ \gamma(t) \notin \Omega
     \right\}$ — не пусто (так как $0 \in T$) и ограничено.
 
@@ -149,7 +149,7 @@ $v \in V, \ \partial^{-1}(v): A \sim B \Longleftrightarrow A, B \in \partial^{-1
 
     Если $\gamma(c) = C \notin \Omega$, то существует окрестность $U$ точки $C$ такая, что $U \cap \Omega = \emptyset$ (воспользовались замкнутостью множества $\Omega$).
 
-    Так как $\gamma$ — непрерывная кривая, то существует окрестность $V = (c - \epsilon, c + \epsilon)$ такая, что $\gamma(V) \in U$, то есть $\forall t \in (c - \epsilon, c + \epsilon): \gamma(t) \notin \Omega \Longrightarrow c \neq \sup{T}$ — противоречие, значит, $C \in \Omega$.
+    Так как $\gamma$ — непрерывная кривая, то существует окрестность $V = (c - \epsilon, c + \epsilon)$ такая, что $\gamma(V) \subset U$, то есть $\forall t \in (c - \epsilon, c + \epsilon): \gamma(t) \notin \Omega \Longrightarrow c \neq \sup{T}$ — противоречие, значит, $C \in \Omega$.
     
     В качестве $t_0$ возьмём $c$.
 
