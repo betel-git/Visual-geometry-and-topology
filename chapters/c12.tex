@@ -191,3 +191,15 @@ $$\begin{cases}
     откуда
     \[c = \frac{1}{T} \int_{0}^{T}\left|\frac{d\gamma}{du}\right| \, du.\]
 \end{proof} 
+
+Я всё-таки решил добавить альтернативный вариант данного утверждения с более понятным доказательством:
+\begin{statement}
+    Для любой регулярной кривой $\gamma(t), \ t \in [a,b]$, существует возрастающая регулярная замена параметра $t = \psi(\tau)$, для которой вектор скорости кривой $\gamma \circ \psi$ имеет единичную длину при всех $\tau$.
+\end{statement} 
+\begin{proof}
+    Положим 
+    $$\tau = \mu(t) = \int_{a}^{t}||\gamma'(\xi)||d \xi,$$
+    тогда, в силу того, что $||\gamma'(\xi)|| > 0$ при всех $\xi$, функция $\mu(t)$ строго монотонно возрастающая. Положим $\psi = \mu^{-1}$, тогда
+    $$\frac{d(\gamma \circ \phi)}{d \tau} = \frac{d \gamma}{dt} \cdot \frac{d \psi}{d \tau} = \frac{d \gamma}{dt} / \frac{d \mu}{dt} = \frac{\gamma'}{||\gamma'||},$$
+    поэтому вектор скорости кривой $\gamma \circ \psi$ имеет единичную длину при всех $\tau$.
+\end{proof} 
